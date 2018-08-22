@@ -1,0 +1,38 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "eu-west-1:5a551f22-f3ab-4992-ac72-ebbc6b7fedd5",
+        "Region": "eu-west-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "whatisee-userfiles-mobilehub-876199612",
+      "Region": "eu-west-1"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "f4990092fd84424ca285257ca1c7340b",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "whatisee-userfiles-mobilehub-876199612",
+      "Region": "eu-west-1"
+    }
+  }
+}
